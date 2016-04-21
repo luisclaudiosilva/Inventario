@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+        <html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Trabalho Inventário</title>
+    <link type="text/css" rel="stylesheet" href="estilo.css"/> 
+    <script type="text/javascript" src="java.js"> </script>
+</head>
+
+<body>
+	<img src="boxes copy_thumb.png">
+
+
+<header class="A">
+<a href="">Manutenção</a>
+<a href="">Relatório</a>
+<a href="">Segurança</a>
+<a href="">Configurações</a>
+<a href="">Help</a>
+</header>
+
+<div class="B">
+    <center><i><span>Cadastro</span></i></center><hr/>
+
+		<form name="formulario" id="form"> 
+
+                <label>Códico: <input id="codigo" type="number" min="1" max="10" required> <br></label>
+				<label>Localização: 
+				<select id="localizacao"> 
+					<option value="0">Selecione</option>
+					<option value="Fortaleza">Fortaleza</option> 
+					<option value="Caucaia">Caucaia</option> 
+					<option value="Maracanau">Maracanaú</option> 
+				</select> 
+				<br></label>
+				<label>Quant.: <input id="quant" type="number" min="1" max="100"required><br></label>
+
+                <label>Data de <br>Modificação: <input id="date" type="date" required> <br></label>
+
+                <label>Nome:<input id="nome" type="name" required="required" name="text" pattern="[a-zA-Z]+"/><br></label>
+
+				<label>Observações: <textarea id="obs" maxlength="255"></textarea><br><br><br></label>
+			
+			<input id="cadastro" onClick = "validaForm()" type="button" value="Cadastrar" reset> </input>
+
+            <input id="limpa" type="reset" value="Limpar"> </input>
+
+		</form>
+    
+
+</div>
+
+<div class="C">
+    <center><i><span>Itens</span></i></center><hr/>
+
+    <table id="idTabela" border="1">
+    	<tr>
+    		<th>Códico</th>
+    		<th>Localização</th>
+    		<th>Quantidade</th>
+    		<th>Modificação</th>
+    		<th>Último usuário</th>
+    		<th>Observações</th>
+    		<th>Editar</th>
+    	</tr>
+
+    	<tr>
+    		<td>1</td>
+    		<td>Fortaleza</td>
+    		<td>1</td>
+    		<td>01/Agosto/2014</td>
+    		<td>José Silva</td>
+    		<td>Dados Ok!</td>
+    		<td><a href=""><img src="write.png"></a></td>
+    	</tr>
+
+    	<tr>
+    		<td>2</td>
+    		<td>Maracanaú</td>
+    		<td>3</td>
+    		<td>20/Agosto/2014</td>
+    		<td>Alberto Morais</td>
+    		<td>Dados Ok!</td>
+    		<td><a href=""><img src="write.png"></a></td>
+    	</tr>
+
+    	<tr>
+    		<td>3</td>
+    		<td>Caucaia</td>
+    		<td>1</td>
+    		<td>02/Setembro/2014</td>
+    		<td>Alinne Sousa</td>
+    		<td>Dados Ok!</td>
+    		<td><a href=""><img src="write.png"></a></td>
+    	</tr>
+
+
+
+    </table>
+
+
+   
+</div>
+
+<footer class="D">
+Inventário-2014
+</footer>
+
+	
+
+</body>
+
+ </html>

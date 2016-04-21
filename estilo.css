@@ -1,0 +1,86 @@
+body{
+	background-color: #E0EEE0;
+}
+
+header,div,img,footer{
+float: left;
+}
+
+.A{
+	background-color: #CFCFCF;
+	font-size: 20px;
+	border:1px solid black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 33px;
+	margin-top: 10px;
+	width: 89%;
+}
+
+.B{
+	background-color: #CFCFCF;
+	font-size: 17px;
+	clear: left;
+	border:1px solid black;
+	padding:10px;
+	padding-bottom: 22px;
+	margin-top: 70px;
+	
+}
+
+.C{
+	background-color: #CFCFCF;
+	font-size: 17px;
+	border:1px solid black;
+	padding:10px;
+	padding-left: 40px;
+	padding-bottom: 76px;
+	margin-left: 10px;
+	margin-top: 70px;
+	width: 72%;
+}
+
+.D{
+	
+	background-color: #CFCFCF;
+	font-size: 15px;
+	border:1px solid black;
+	padding: 10px;
+	padding-left: 200px;
+	padding-right: 205px;
+	margin-top: 150px;
+	font-style: italic;
+	text-align: center;
+	width: 69%;
+	position: fixed;
+    bottom: 0px;
+}
+
+a{
+	color: #1C1C1C;
+	font-size: 20px;
+	padding: 10px;
+}
+
+a:hover{
+	color: black;
+	color: #f00
+}
+
+form{
+	margin-top: 15px;
+}
+
+span{
+	font-weight: bolder;
+}
+
+#idTabela{
+	background-color: #E8E8E8;
+	text-align: center;
+	width: 900px;
+	border: 1px solid;
+}
+
+
+
